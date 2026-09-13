@@ -1,0 +1,12 @@
+# Dependencies & internal agents
+.agents/
+.gemini/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp files
+*.log
+*.tmp

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://thekrishnafarms.com/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://thekrishnafarms.com/assets/real_cottages_lawn.png</image:loc>
+      <image:title>The Krishna Farms Wooden Cottages and Sprawling Wedding Lawn</image:title>
+      <image:caption>Authentic wooden chalets and wedding lawn at Krishna Farm Kala Bakra Jalandhar</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thekrishnafarms.com/assets/real_swimming_pool.png</image:loc>
+      <image:title>The Krishna Farms Crystal Swimming Pool and Cabana Deck</image:title>
+      <image:caption>Outdoor swimming pool deck at The Krishna Farms</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thekrishnafarms.com/assets/real_cottages_closeup.png</image:loc>
+      <image:title>Eco-Luxury Wooden Chalet Farmstay Suites</image:title>
+      <image:caption>Wooden cottages starting from ₹3,990/night at Krishna Farm</image:caption>
+    </image:image>
+  </url>
+</urlset>
