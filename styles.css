@@ -1,5 +1,5 @@
 /* ==========================================================================
-   THE KRISHNA FARMS — ULTRA LUXURY ESTATE & CHALET RESORT
+   THE KRISHNA FARMS — ULTRA LUXURY FARM ESTATE & CHALET FARMSTAY
    Design Style: International Foreign Luxury Estate (Napa Valley & European Chalet Standard)
    Palette: Royal Emerald Noir (#04100B), Champagne Gold (#D4AF37),
             Warm Alabaster Ivory (#FAF7F0), Frosted Glass & Gold Shimmer
@@ -570,7 +570,7 @@ button, input, select, textarea {
   align-items: center;
   background: 
     linear-gradient(180deg, rgba(3, 12, 8, 0.68) 0%, rgba(3, 12, 8, 0.86) 55%, var(--noir-obsidian) 100%),
-    url('assets/lawn_estate_panorama.jpg') center 35% / cover no-repeat;
+    url('assets/farm_cottages_panoramic.jpg') center 35% / cover no-repeat;
   color: #ffffff;
   padding: 100px 0 80px;
   overflow: hidden;
@@ -1845,26 +1845,74 @@ html, body {
   }
   .gallery-masonry-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 12px;
   }
   .gallery-box-item {
-    height: 165px;
-    border-radius: var(--radius-sm);
+    height: 195px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
   }
   .gallery-hover-overlay {
     opacity: 1;
-    background: linear-gradient(0deg, rgba(3, 12, 8, 0.9) 0%, rgba(3, 12, 8, 0.28) 60%, transparent 100%);
-    padding: 10px 10px;
+    background: linear-gradient(0deg, rgba(3, 12, 8, 0.92) 0%, rgba(3, 12, 8, 0.35) 55%, transparent 100%);
+    padding: 12px 10px;
     justify-content: flex-end;
   }
   .gallery-item-title {
-    font-size: 0.86rem;
-    margin-bottom: 2px;
-    line-height: 1.2;
+    font-size: 0.88rem;
+    margin-bottom: 3px;
+    line-height: 1.25;
+    font-weight: 700;
   }
   .gallery-action-tag {
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     letter-spacing: 0.5px;
+    color: var(--gold-light);
+  }
+
+  /* Photo Lightbox Modal Mobile Usability */
+  .estate-lightbox-modal {
+    padding: 14px;
+    background: rgba(0, 0, 0, 0.96);
+    backdrop-filter: blur(10px);
+  }
+  .lightbox-frame {
+    width: 100%;
+    max-width: 96vw;
+    max-height: 90vh;
+    padding-top: 48px;
+    position: relative;
+  }
+  .lightbox-photo-target {
+    max-height: 62vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
+  }
+  .lightbox-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    background: rgba(11, 34, 25, 0.95);
+    border: 1.5px solid var(--gold-metallic);
+    color: #ffffff;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    z-index: 2600;
+  }
+  .lightbox-desc-text {
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin-top: 10px;
+    padding: 0 6px;
   }
 
   /* Google Verified Banner */
@@ -1976,16 +2024,17 @@ html, body {
 
   /* Fixed Sticky Mobile Action Bar (Call + WhatsApp + GPS Directions) */
   body {
-    padding-bottom: 68px; /* Clearance for sticky bar */
+    padding-bottom: 78px; /* Clearance for sticky bar */
   }
   .fixed-mobile-bar {
     display: flex;
     align-items: center;
-    padding: 8px 10px calc(8px + env(safe-area-inset-bottom, 0px));
-    gap: 7px;
+    padding: 9px 10px calc(9px + env(safe-area-inset-bottom, 0px));
+    gap: 8px;
     background: rgba(3, 12, 8, 0.98);
     border-top: 1.5px solid var(--gold-metallic);
-    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.7);
+    z-index: 1200;
   }
   .fixed-mobile-bar .btn-phone {
     background: rgba(11, 34, 25, 0.95);
@@ -1994,32 +2043,70 @@ html, body {
   }
   .mobile-action-chip {
     flex: 1;
-    padding: 10px 4px;
-    font-size: 0.76rem;
+    padding: 11px 6px;
+    font-size: 0.78rem;
     font-weight: 700;
-    gap: 5px;
+    gap: 6px;
+    min-height: 42px;
     border-radius: var(--radius-full);
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
   }
   .mobile-action-chip svg {
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Targeted small smartphone screen polish */
+  .gallery-masonry-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .gallery-box-item {
+    height: 220px;
+    border-radius: var(--radius-md);
+  }
+  .hero-experience {
+    padding: 42px 0 38px;
+  }
+  .hero-headline {
+    font-size: 1.85rem;
+    line-height: 1.22;
+  }
+  .hero-prestige-ribbon {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 8px;
+  }
+  .travel-matrix {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .travel-node {
+    padding: 12px;
+  }
+  .mobile-action-chip {
+    font-size: 0.74rem;
+    padding: 10px 4px;
+    gap: 4px;
   }
 }
 
 @media (max-width: 380px) {
-  /* Micro-optimizations for compact screens (iPhone SE, smaller Androids) */
+  /* Micro-optimizations for compact screens (iPhone SE, smaller devices) */
   .brand-identity .logo-main {
     font-size: 1.05rem;
     letter-spacing: 1px;
   }
   .hero-headline {
-    font-size: 1.7rem;
+    font-size: 1.65rem;
   }
-  .travel-matrix {
-    grid-template-columns: 1fr;
-  }
-  .gallery-masonry-grid {
-    grid-template-columns: 1fr;
+  .hero-trust-badge {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
   }
   .gallery-box-item {
     height: 200px;

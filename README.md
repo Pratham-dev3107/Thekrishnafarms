@@ -7,7 +7,7 @@
 ---
 
 ## 🏛️ About The Estate
-The Krishna Farms is a luxury resort, grand wedding lawn, and authentic wooden farmstay chalet retreat.
+The Krishna Farms is a luxury farm estate, grand wedding lawn, and authentic wooden farmstay chalet retreat.
 - **Imperial Wedding Lawn**: 1,000+ guest capacity open-air lawn
 - **Crystal Swimming Pool**: Poolside cabana deck for Haldi, Mehendi, and cocktail sundowners
 - **Eco-Luxury Wooden Chalets**: Solid timber cottages starting from ₹3,990/night with modern AC & attached ensuite bathrooms

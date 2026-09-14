@@ -3,23 +3,33 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://thekrishnafarms.com/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://thekrishnafarms.com/assets/real_cottages_lawn.png</image:loc>
+      <image:loc>https://thekrishnafarms.com/assets/farm_cottages_panoramic.jpg</image:loc>
       <image:title>The Krishna Farms Wooden Cottages and Sprawling Wedding Lawn</image:title>
-      <image:caption>Authentic wooden chalets and wedding lawn at Krishna Farm Kala Bakra Jalandhar</image:caption>
+      <image:caption>Authentic wooden cottages and wedding lawn at Krishna Farm Kala Bakra Jalandhar</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://thekrishnafarms.com/assets/real_swimming_pool.png</image:loc>
-      <image:title>The Krishna Farms Crystal Swimming Pool and Cabana Deck</image:title>
+      <image:loc>https://thekrishnafarms.com/assets/farm_swimming_pool.jpg</image:loc>
+      <image:title>The Krishna Farms Swimming Pool and Cabana Deck</image:title>
       <image:caption>Outdoor swimming pool deck at The Krishna Farms</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://thekrishnafarms.com/assets/real_cottages_closeup.png</image:loc>
-      <image:title>Eco-Luxury Wooden Chalet Farmstay Suites</image:title>
+      <image:loc>https://thekrishnafarms.com/assets/farm_cottages_evening.jpg</image:loc>
+      <image:title>Eco-Luxury Wooden Chalet Farmstay Cottages</image:title>
       <image:caption>Wooden cottages starting from ₹3,990/night at Krishna Farm</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thekrishnafarms.com/assets/farm_royal_gate.jpg</image:loc>
+      <image:title>The Krishna Farms Royal Heritage Entrance Gate</image:title>
+      <image:caption>Grand carved brick and wooden estate entrance gate at night</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thekrishnafarms.com/assets/farm_master_suite.jpg</image:loc>
+      <image:title>Luxury Master Bedroom Cottage Suite</image:title>
+      <image:caption>Wood-paneled luxury farmstay master suite bedroom interior</image:caption>
     </image:image>
   </url>
 </urlset>
