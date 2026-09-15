@@ -619,13 +619,37 @@ button, input, select, textarea {
 
 .hero-headline {
   font-family: var(--font-editorial);
-  font-size: clamp(2.6rem, 5.8vw, 4.8rem);
+  font-size: clamp(2.4rem, 5.2vw, 4.4rem);
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1.15;
   color: #ffffff;
   margin-bottom: 22px;
   text-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
+}
+
+.brand-title-accent {
+  display: block;
+  font-family: var(--font-regal);
+  font-size: clamp(2.2rem, 5.2vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ffffff 15%, var(--gold-light) 65%, var(--gold-bright) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  text-shadow: 0 4px 35px rgba(0, 0, 0, 0.7);
+}
+
+.hero-headline-sub {
+  display: block;
+  font-family: var(--font-editorial);
+  font-size: clamp(1.45rem, 2.9vw, 2.5rem);
+  font-weight: 500;
+  color: var(--gold-light);
+  line-height: 1.25;
 }
 
 .hero-headline em {
